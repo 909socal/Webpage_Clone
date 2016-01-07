@@ -1,0 +1,79 @@
+body{
+	background-color: #272a30;;
+}
+
+.app_back{
+	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('http://www.archeeve.com/assets/images/background2.jpg');
+	background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+	text-align: center;
+	z-index: -1;
+}
+
+img:hover {
+    bottom: 0;
+}
+.button{
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    font-family: Arial;›
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: center;
+	width: 222px;
+	height: 50px;
+	margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+
+}
+.center{
+	text-align: center;
+}
+.margin{
+	padding-top: 221px;
+}
+
+h1, h2{
+	font-family: Arial;
+    font-weight: 300;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    color: #fff;
+    font-size: 2em;
+    margin: .67em 0;
+}
+.container{
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+	justify-content:space-around;
+}
+.elements{
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+	justify-content:space-around;
+}
+.container2{
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+	justify-content:space-around;
+}
+.top{
+	flex:none;
+}
+
+.first {
+	height: 100vh;
+	width: 100vw;
+}
